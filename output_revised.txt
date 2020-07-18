@@ -1,0 +1,2 @@
+placeFitnessTrainerAppointmentComponentBusinessShouldBePlaceGiftCardOrder=true
+contactUsComponentBusinessShouldSubmitForm=true

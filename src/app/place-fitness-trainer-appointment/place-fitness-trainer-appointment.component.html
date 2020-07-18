@@ -1,0 +1,376 @@
+<form [formGroup]="fitnessForm" (ngSubmit)="onSubmit()" novalidate>
+    <div class="form-group">
+        <label for="exampleInputfirstname">First Name</label>
+        <input type="text" class="form-control" formControlName="firstname" placeholder="First Name">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.firstname.touched && fitnessForm.controls.firstname.errors?.required">
+            Please enter first name.!
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputlastname">Last Name</label>
+        <input type="text" class="form-control" formControlName="lastname" placeholder="Last Name">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.lastname.touched && fitnessForm.controls.lastname.errors?.required">
+            Please enter last name.!
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputage">Age</label>
+        <input type="number" class="form-control" formControlName="age" placeholder="Age">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.age.touched && fitnessForm.controls.phonenumber.errors?.required">
+            Please enter age.!
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputphonenumber">Phone Number</label>
+        <input type="number" class="form-control" formControlName="phonenumber" placeholder="Phone Number">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.phonenumber.touched && fitnessForm.controls.phonenumber.errors?.required">
+            Please enter phone number.!
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputemail">Email</label>
+        <input type="email" class="form-control" formControlName="email" placeholder="Eamil">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.email.touched && fitnessForm.controls.email.errors?.required">
+            Please enter email.!
+        </small>
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.email.touched && fitnessForm.controls.email.errors?.email">
+            Enter the valid email .!
+        </small>
+    </div>
+
+    <label>Shipping Address</label>
+    <div class="form-group">
+        <label for="exampleInputstreetaddress">Street Address</label>
+        <input type="text" class="form-control" formControlName="streetaddress" placeholder="Street Address">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.streetaddress.touched && fitnessForm.controls.streetaddress.errors?.required">
+            Please enter streetaddress.!
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputcity">City</label>
+        <input type="text" class="form-control" formControlName="city" placeholder="City">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.city.touched && fitnessForm.controls.city.errors?.required">
+            Please enter city.!
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputstate">State</label>
+        <input type="text" class="form-control" formControlName="state" placeholder="State">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.state.touched && fitnessForm.controls.state.errors?.required">
+            Please enter state.!
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputcountry">Country</label>
+        <select formControlName="country">
+            <option value="india">
+                India
+            </option>
+            <option value="japan">
+                Japan
+            </option>
+            <option value="russia">
+                Russia
+            </option>
+            <option value="usa">
+                USA
+            </option>
+        </select>
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.country.touched && fitnessForm.controls.country.errors?.required">
+            Please enter country.!
+        </small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputpincode">Pincode</label>
+        <input type="number" class="form-control" formControlName="pincode" placeholder="Pincode">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.pincode.touched && fitnessForm.controls.pincode.errors?.required">
+            Please enter pincode.!
+        </small>
+    </div>
+
+    <label>Trainer Preference :</label>
+    <div class="form-group">
+        <label for="exampleInputtrainerpreference">Male Trainer</label>
+        <input type="radio" value='Male Trainer' class="form-control" formControlName="trainerpreference">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputtrainerpreference">Female Trainer</label>
+        <input type="radio" value='Female Trainer' class="form-control" formControlName="trainerpreference">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputtrainerpreference">No preference</label>
+        <input type="radio" value='No preference' class="form-control" formControlName="trainerpreference">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputtrainerpreference">Trainers name</label>
+        <input type="radio" class="form-control" value='Trainers name' formControlName="trainerpreference">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputtrainerpreference"></label>
+        <input type="text" class="form-control" formControlName="trainerpreference">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputtrainerpreference">Others</label>
+        <input type="radio" value='Others' class="form-control" formControlName="trainerpreference" placeholder="Others">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputtrainerpreference"></label>
+        <input type="text" class="form-control" formControlName="trainerpreference">
+    </div>
+    <label>Do you need physiotherapist ?</label>
+    <div class="form-group">
+        <label for="exampleInputphysiotherapist">Yes</label>
+        <input type="radio" value='Yes' class="form-control" formControlName="physiotherapist">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputphysiotherapist">No</label>
+        <input type="radio" value='No' class="form-control" formControlName="physiotherapist">
+
+    </div>
+    <label>Appointment: (Free)</label>
+    <table border="1">
+        <tr>
+            <th class="h1">Day</th>
+            <th class="h2">7 to 9 am</th>
+            <th class="h3">9 to 11 am</th>
+            <th class="h4">11 to 1 pm</th>
+            <th class="h5">1 to 3 pm</th>
+            <th class="h6">3 to 5pm</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+        </tr>
+        <tr>
+
+            <td>Tuesday</td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+        </tr>
+        <tr>
+
+            <td>Wednesday</td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+        </tr>
+        <tr>
+
+            <td>Thursday</td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+        </tr>
+        <tr>
+
+            <td>Friday</td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+        </tr>
+        <tr>
+
+            <td>Saturday</td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <input type="radio" class="form-control">
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <label>Select a package :</label>
+    <div class="form-group">
+        <label for="exampleInputpackages">One time assessment only</label>
+        <input type="radio" value='500' class="form-control" formControlName="packages">
+
+    </div>
+    <div class="form-group">
+        <label for="exampleInputpackages">4 weekly sessions</label>
+        <input type="radio" value='400' class="form-control" formControlName="packages">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputpackages">12 weekly sessions</label>
+        <input type="radio" value='300' class="form-control" formControlName="packages">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputpackages">Other</label>
+        <input type="radio" value='Other session' class="form-control" formControlName="packages">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" formControlName="packages">
+    </div>
+    <label>Quote</label>
+    <div class="form-group">
+        <label for="exampleInputinr">INR</label>
+        <input type="number" class="form-control" formControlName="inr" placeholder="INR">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.inr.touched && fitnessForm.controls.inr.errors?.required">
+            Please enter INR. !
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputpaisa">Paisa</label>
+        <input type="number" class="form-control" formControlName="paisa" placeholder="Paisa">
+        <small class="form-text text-muted"
+            *ngIf="fitnessForm.controls.paisa.touched && fitnessForm.controls.paisa.errors?.required">
+            Please enter Paisa.!
+        </small>
+    </div>
+
+    <button type="submit">Submit</button>
+
+</form>

@@ -19,10 +19,10 @@ module.exports = {
         // var xml = xmlBuilder.create('test-cases');
         var testCaseType = result.fullName.trim().split(" ")[1];
 
-        // xml.ele('cases', {"xmlns:java": "http://java.sun.com", "xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance", "xsi:type":"java:com.assessment.data.TestCase"})
-        xml.ele('cases')
+        xml.ele('cases', {"xmlns:java": "http://java.sun.com", "xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance", "xsi:type":"java:com.assessment.data.TestCase"})
+        // xml.ele('cases')
         .ele('test-case-type', capitalize(testCaseType=='business'?"functional":testCaseType)).up()
-        .ele('expected-output', true).up()
+        .ele('expected-ouput', true).up()
         .ele('name', camelCase(result.fullName.trim())).up()
         .ele('weight', 2).up()
         .ele('mandatory', true).up()

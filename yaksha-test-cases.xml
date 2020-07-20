@@ -1,287 +1,287 @@
 <test-cases>
-  <cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
     <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderPhone</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderCity</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderSlNo</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderTrainerPreference</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderPackage</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldCreate</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderName</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderAddress</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldShowUserHeaderLength</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Exception</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentExceptionShouldBeCheckFitnessApi</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryPhonenumberFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryCityFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryStreetaddressFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryCountryFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryStateFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryAgeFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryLastnameFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryEmailFieldValidity.tobefalsy().tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryPincodeFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryShouldCreate</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryInrFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryFirstnameFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryPaisaFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBusinessShouldBePlaceGiftCardOrder</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>landingpagecomponentBoundaryShouldHaveAHeaderH1(introText)</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
+    <expected-ouput>true</expected-ouput>
     <name>landingpagecomponentBoundaryShouldCreate</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
-  <cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
     <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
+    <expected-ouput>true</expected-ouput>
+    <name>landingpagecomponentBoundaryShouldHaveAHeaderH1(introText)</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderName</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderSlNo</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderAddress</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentBoundaryShouldShowUserHeaderLength</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderPhone</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderTrainerPreference</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentBoundaryShouldCreate</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderPackage</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderCity</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>viewappointmentcomponentExceptionShouldBeCheckFitnessApi</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryEmailFieldValidity.tobefalsy().tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryInrFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryStreetaddressFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryPaisaFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryCountryFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryPincodeFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryFirstnameFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryLastnameFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryShouldCreate</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryCityFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryStateFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryAgeFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBoundaryPhonenumberFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>placefitnesstrainerappointmentcomponentBusinessShouldBePlaceGiftCardOrder</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
     <name>appcomponentBoundaryShouldCreateTheApp</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
-  <cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
     <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryFirstnameFieldValidation</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryShouldCreateTobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
+    <expected-ouput>true</expected-ouput>
     <name>contactuscomponentBoundaryMessageFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
-  <cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
     <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
+    <expected-ouput>true</expected-ouput>
     <name>contactuscomponentBoundaryEmailFieldValidity.tobefalsy().tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
-  <cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
     <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
+    <expected-ouput>true</expected-ouput>
     <name>contactuscomponentBoundaryPhonenumberFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
-  <cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
     <test-case-type>Boundary</test-case-type>
-    <expected-output>true</expected-output>
+    <expected-ouput>true</expected-ouput>
+    <name>contactuscomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
     <name>contactuscomponentBoundaryLastnameFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
-  <cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>contactuscomponentBoundaryShouldCreateTobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-ouput>true</expected-ouput>
+    <name>contactuscomponentBoundaryFirstnameFieldValidation</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
     <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
+    <expected-ouput>true</expected-ouput>
     <name>contactuscomponentBusinessShouldSubmitForm</name>
     <weight>2</weight>
     <mandatory>true</mandatory>

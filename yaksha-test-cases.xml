@@ -1,102 +1,6 @@
 <test-cases>
   <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryFirstnameFieldValidation</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryShouldCreateTobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryLastnameFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryPhonenumberFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryEmailFieldValidity.tobefalsy().tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>contactuscomponentBoundaryMessageFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderName</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderPackage</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderCity</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderAddress</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldCreate</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
+    <test-case-type>Boundary</test-case-type>
     <expected-output>true</expected-output>
     <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderPhone</name>
     <weight>2</weight>
@@ -104,7 +8,15 @@
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Functional</test-case-type>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderCity</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
     <expected-output>true</expected-output>
     <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderSlNo</name>
     <weight>2</weight>
@@ -112,15 +24,7 @@
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>viewappointmentcomponentBoundaryShouldShowUserHeaderLength</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
+    <test-case-type>Boundary</test-case-type>
     <expected-output>true</expected-output>
     <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderTrainerPreference</name>
     <weight>2</weight>
@@ -128,9 +32,161 @@
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Functional</test-case-type>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderPackage</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>viewappointmentcomponentBoundaryShouldCreate</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderName</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderAddress</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>viewappointmentcomponentBoundaryShouldShowUserHeaderLength</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Exception</test-case-type>
     <expected-output>true</expected-output>
     <name>viewappointmentcomponentExceptionShouldBeCheckFitnessApi</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryPhonenumberFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryCityFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryStreetaddressFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryCountryFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryStateFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryAgeFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryLastnameFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryEmailFieldValidity.tobefalsy().tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryPincodeFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryShouldCreate</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryInrFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryFirstnameFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>placefitnesstrainerappointmentcomponentBoundaryPaisaFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
@@ -144,127 +200,15 @@
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Functional</test-case-type>
+    <test-case-type>Boundary</test-case-type>
     <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryPhonenumberFieldValidationTobefalsy()Tobetruthy()</name>
+    <name>landingpagecomponentBoundaryShouldHaveAHeaderH1(introText)</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryAgeFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryLastnameFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryFirstnameFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryStateFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryCityFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryStreetaddressFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryEmailFieldValidity.tobefalsy().tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryPaisaFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryShouldCreate</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryCountryFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryInrFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>placefitnesstrainerappointmentcomponentBoundaryPincodeFieldValidationTobefalsy()Tobetruthy()</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
-    <expected-output>true</expected-output>
-    <name>appcomponentBoundaryShouldCreateTheApp</name>
-    <weight>2</weight>
-    <mandatory>true</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Functional</test-case-type>
+    <test-case-type>Boundary</test-case-type>
     <expected-output>true</expected-output>
     <name>landingpagecomponentBoundaryShouldCreate</name>
     <weight>2</weight>
@@ -272,9 +216,65 @@
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Functional</test-case-type>
+    <test-case-type>Boundary</test-case-type>
     <expected-output>true</expected-output>
-    <name>landingpagecomponentBoundaryShouldHaveAHeaderH1(introText)</name>
+    <name>appcomponentBoundaryShouldCreateTheApp</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>contactuscomponentBoundaryFirstnameFieldValidation</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>contactuscomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>contactuscomponentBoundaryShouldCreateTobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>contactuscomponentBoundaryMessageFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>contactuscomponentBoundaryEmailFieldValidity.tobefalsy().tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>contactuscomponentBoundaryPhonenumberFieldValidationTobefalsy()Tobetruthy()</name>
+    <weight>2</weight>
+    <mandatory>true</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>true</expected-output>
+    <name>contactuscomponentBoundaryLastnameFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>

@@ -1,1 +1,1 @@
-viewAppointmentComponentExceptionShouldBeCheckFitnessApi=true
+viewappointmentcomponentExceptionShouldBeCheckFitnessApi=true

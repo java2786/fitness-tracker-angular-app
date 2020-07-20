@@ -1,288 +1,288 @@
 <test-cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary age field validation toBeFalsy() toBeTruthy()</name>
+    <name>contactuscomponentBoundaryFirstnameFieldValidation</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary city field validation toBeFalsy() toBeTruthy()</name>
+    <name>contactuscomponentBoundaryShouldCreateTobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary state field validation toBeFalsy() toBeTruthy()</name>
+    <name>contactuscomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary pincode field validation toBeFalsy() toBeTruthy()</name>
+    <name>contactuscomponentBoundaryLastnameFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary country field validation toBeFalsy() toBeTruthy()</name>
+    <name>contactuscomponentBoundaryPhonenumberFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary inr field validation toBeFalsy() toBeTruthy()</name>
+    <name>contactuscomponentBoundaryEmailFieldValidity.tobefalsy().tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary firstname field validation toBeFalsy() toBeTruthy()</name>
+    <name>contactuscomponentBoundaryMessageFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary streetaddress field validation toBeFalsy() toBeTruthy()</name>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderName</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary lastname field validation toBeFalsy() toBeTruthy()</name>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderPackage</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary should create</name>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderCity</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary phonenumber field validation toBeFalsy() toBeTruthy()</name>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderAddress</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary paisa field validation toBeFalsy() toBeTruthy()</name>
+    <name>viewappointmentcomponentBoundaryShouldCreate</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary email field validity .toBeFalsy() .toBeTruthy()</name>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderPhone</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent boundary form invalid when empty toBeFalsy()</name>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderSlNo</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Business</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>PlaceFitnessTrainerAppointmentComponent business should be Place gift card order</name>
+    <name>viewappointmentcomponentBoundaryShouldShowUserHeaderLength</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Business</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ContactUsComponent business should submit form</name>
+    <name>viewappointmentcomponentBoundaryShouldHaveTableHeaderTrainerPreference</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ContactUsComponent boundary firstname field validation</name>
+    <name>viewappointmentcomponentExceptionShouldBeCheckFitnessApi</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ContactUsComponent boundary should create toBeTruthy()</name>
+    <name>placefitnesstrainerappointmentcomponentBusinessShouldBePlaceGiftCardOrder</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ContactUsComponent boundary form invalid when empty toBeFalsy()</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryPhonenumberFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ContactUsComponent boundary lastname field validation toBeFalsy() toBeTruthy()</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryAgeFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ContactUsComponent boundary phonenumber field validation toBeFalsy() toBeTruthy()</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryLastnameFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ContactUsComponent boundary email field validity .toBeFalsy() .toBeTruthy()</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryFirstnameFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ContactUsComponent boundary message field validation toBeFalsy() toBeTruthy()</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryStateFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>LandingPageComponent boundary  should have a header h1 (Intro text)</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryCityFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>LandingPageComponent boundary should create</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryStreetaddressFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>AppComponent boundary should create the app</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryEmailFieldValidity.tobefalsy().tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent boundary should have table header  Address</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryPaisaFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent boundary should show user header length</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryShouldCreate</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent boundary should have table header  Name</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryCountryFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent boundary should have table header Sl NO</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryFormInvalidWhenEmptyTobefalsy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent boundary should have table header Trainer Preference</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryInrFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent boundary should have table header Phone</name>
+    <name>placefitnesstrainerappointmentcomponentBoundaryPincodeFieldValidationTobefalsy()Tobetruthy()</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent boundary should have table header City</name>
+    <name>appcomponentBoundaryShouldCreateTheApp</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent boundary should create</name>
+    <name>landingpagecomponentBoundaryShouldCreate</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Boundary</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent boundary should have table header Package</name>
+    <name>landingpagecomponentBoundaryShouldHaveAHeaderH1(introText)</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>Exception</test-case-type>
+    <test-case-type>Functional</test-case-type>
     <expected-output>true</expected-output>
-    <name>ViewAppointmentComponent exception should be check fitness api</name>
+    <name>contactuscomponentBusinessShouldSubmitForm</name>
     <weight>2</weight>
     <mandatory>true</mandatory>
     <desc>na</desc>
